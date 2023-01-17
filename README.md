@@ -1,7 +1,6 @@
 # Memories
+
 Social media application where user can share places with image and location with other users.
-
-
 
 ## what I build and which problem I want to solve.
 
@@ -11,16 +10,12 @@ The great thing about this app is that it's not too complex and yet it has all t
 you want to have such an app.
 Specifically, I have used all the core CRUD operations to create, read, update and delete.
 
-
 Tech stack- React.js, Node.js, Express.js & MongoDB.
 
-
-## How to use
+## How to use?
 
 To get started with the web app, clone the repository and install the dependencies using "npm install" command in both frondend and backend folders and then use "npm start" in both folder.
 
-
-
-
 ## Contributing
+
 If you would like to contribute to the project, please fork the repository and make your changes in a separate branch. Once you are satisfied with your changes, submit a pull request for review.
