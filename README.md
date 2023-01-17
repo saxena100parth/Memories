@@ -17,8 +17,7 @@ Tech stack- React.js, Node.js, Express.js & MongoDB.
 
 ## How to use
 
-To get started with the web app, clone the repository and install the dependencies using "npm install" command in both frondend and backend folders.
-And then use "npm start" in both folder.
+To get started with the web app, clone the repository and install the dependencies using "npm install" command in both frondend and backend folders and then use "npm start" in both folder.
 
 
 
