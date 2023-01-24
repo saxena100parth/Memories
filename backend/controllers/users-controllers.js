@@ -24,6 +24,7 @@ const signup = async (req, res, next) => {
       new HttpError("Invalid inputs passed, please check your data.", 422)
     );
   }
+
   const { name, email, password } = req.body;
 
   let existingUser;
@@ -48,12 +49,11 @@ const signup = async (req, res, next) => {
   const createdUser = new User({
     name,
     email,
-    image:
-      "https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Feverythingbarca.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2018%2F08%2F1126881396-850x560.jpeg",
+    image: req.file.path,
+    // "https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Feverythingbarca.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2018%2F08%2F1126881396-850x560.jpeg",
     password,
     places: [],
   });
-
   try {
     await createdUser.save();
   } catch (err) {
