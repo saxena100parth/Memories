@@ -1,4 +1,4 @@
-# Memories  (A  Full-Stack web App)
+# Memories  (A  FullStack web App)
 
 Social media application where user can share places with image and location with other users.
 
